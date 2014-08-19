@@ -64,7 +64,7 @@ As we created the event we can now create a method in our user service to publis
         new UserJoined(application, user).Publish();
     }
 
-Now the event is published, but nobody is handling it (yet). This project comes with an interface that allows you to store the events where you like. The following snippet writes the event to the MongoDb implementation DotNetRules.Events.Data.MongoDb:
+Now the event is published, but nobody is handling it (yet). This project comes with an interface that allows you to store the events where you like. The following snippet writes the event to the MongoDb implementation [DotNetRules.Events.Data.MongoDb](https://github.com/MatthiasKainer/DotNetRules.Events.Data.MongoDb):
 
     using DotNetRules.Runtime;
 
