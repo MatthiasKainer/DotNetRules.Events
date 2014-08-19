@@ -1,6 +1,8 @@
 DotNetRules.Events
 ==================
 
+[![dotnetrules-events MyGet Build Status](https://www.myget.org/BuildSource/Badge/dotnetrules-events?identifier=948f94f2-88a5-4fe3-85ff-27dd14b1e71d)](https://www.myget.org/)
+
 A lightweight EventSourcing library on top of DotNetRules
 
 ## About
