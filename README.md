@@ -5,7 +5,7 @@ DotNetRules.Events
 
 A lightweight EventSourcing library on top of DotNetRules
 
-## Install 
+## Install using NuGet
 
 > install-package DotNetRules.Events
 
