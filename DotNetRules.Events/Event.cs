@@ -23,7 +23,7 @@
 
         public string Author { get; set; }
 
-        public string BoundedContextType { get; set; }
+        public string EntityContextType { get; set; }
 
         public string EventType { get; set; }
 
@@ -34,7 +34,7 @@
             var baseType = typeof(TEvent).BaseType;
             if (baseType != null)
             {
-                this.BoundedContextType = baseType.AssemblyQualifiedName;
+                this.EntityContextType = baseType.AssemblyQualifiedName;
             }
 
             this.EventType = typeof(TEvent).AssemblyQualifiedName;
