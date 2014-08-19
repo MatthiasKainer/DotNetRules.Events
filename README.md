@@ -5,6 +5,10 @@ DotNetRules.Events
 
 A lightweight EventSourcing library on top of DotNetRules
 
+## Install 
+
+> install-package DotNetRules.Events
+
 ## About
 
 This library is the minimalset for an eventsourcing framework for DotNetRules. It consists of only two (relevant) objects: 
