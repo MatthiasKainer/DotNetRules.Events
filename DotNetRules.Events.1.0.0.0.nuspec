@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>DotNetRules.Events</id>
+        <version>1.0.0.0</version>
+        <authors>MatthiasKainer</authors>
+        <licenseUrl>https://raw.githubusercontent.com/MatthiasKainer/DotNetRules.Events/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/MatthiasKainer/DotNetRules.Events</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A lightweight EventSourcing library on top of DotNetRules</description>
+        <releaseNotes />
+        <copyright />
+        <dependencies>
+            <dependency id="DotNetRules" version="1.0.4947.35776" />
+            <dependency id="Newtonsoft.Json" version="6.0.4" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="build\DotNetRules.Events.dll" target="lib\net40\DotNetRules.Events.dll" />
+    </files>
+</package>
