@@ -4,10 +4,10 @@
 
     public interface ICanLoadEvents
     {
-        IEnumerable<BaseEvent> GetAllEvents();
+        IEnumerable<BaseEvent> GetAllEvents(string forApplication);
 
-        IEnumerable<TEvents> GetSpecificEventsFromStore<TEvents>() where TEvents : BaseEvent;
+        IEnumerable<TEvents> GetSpecificEventsFromStore<TEvents>(string forApplication) where TEvents : BaseEvent;
 
-        IEnumerable<TEvents> GetEventsFromStoreByEntity<TEvents>() where TEvents : BaseEvent;
+        IEnumerable<TEvents> GetEventsFromStoreByEntity<TEvents>(string forApplication) where TEvents : BaseEvent;
     }
 }
