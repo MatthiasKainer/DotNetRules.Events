@@ -50,7 +50,9 @@
   <ItemGroup>
     <Compile Include="BaseEvent.cs" />
     <Compile Include="Configuration\DotNetRulesEventSection.cs" />
+    <Compile Include="Data\ICanLoadEvents.cs" />
     <Compile Include="Data\ICanStoreAndLoadEvents.cs" />
+    <Compile Include="Data\ICanStoreEvents.cs" />
     <Compile Include="DotNetRulesExtensions.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
